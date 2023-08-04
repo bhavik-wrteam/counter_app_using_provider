@@ -21,7 +21,7 @@ class _MyAppState extends State<MyApp> {
       create: (context)=>CounterProvider(),
       child: const MaterialApp(
         debugShowCheckedModeBanner: false,
-        title: 'Counter using Provider',
+        title: 'Counter using Provider ',
         home: HomePage(),
       ),
     );
